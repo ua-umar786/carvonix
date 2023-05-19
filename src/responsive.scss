@@ -1,0 +1,44 @@
+@media (max-width: 1399px) {
+    .cta-section .info {
+        padding: 60px 60px 60px 60px;
+    }
+} 
+
+@media (max-width: 1279px) {}
+@media (max-width: 991px) {}
+@media (max-width: 767px) {
+    header .container {
+        flex-direction: column;
+        .rightbar{
+            margin-top: 15px;
+        }
+    }
+    .exploreParts .listing{
+        grid-template-columns: 1fr;
+    }
+    .home-banner form .selectOption{
+        display: none;
+    }
+    .home-banner form button{
+        border-left: 0;
+        margin-left: 0;
+    }
+    .cta-section .info {
+        padding: 30px;
+    }
+    .exploreParts .search-filter {
+        flex-direction: column;
+    }
+    .crews-builds {
+        grid-template-columns: 1fr;
+    }
+    footer .copyright .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer h4 {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,42 @@
+.exploreParts {
+    margin-bottom: 70px;
+
+    .large-a {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .search-filter {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 15px;
+        align-items: center;
+        margin-top: 20px;
+
+        button {
+            width: 100%;
+        }
+    }
+
+    .listing {
+        display: grid;
+        margin-top: 30px;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+
+        .list-block {
+            background: #212225;
+            border: 1px solid #323334;
+            border-radius: 8px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            img{
+                margin-right: 15px;
+            }
+            &:hover{
+                background: #000;
+            }
+        }
+    }
+}
