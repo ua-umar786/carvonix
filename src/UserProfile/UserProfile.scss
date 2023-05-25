@@ -1,0 +1,326 @@
+.user-profile-section {
+    .banner-img {
+        width: 100%;
+    }
+
+    .user-data {
+        background: #18191A;
+        border-radius: 10px;
+        padding: 40px 30px;
+        position: relative;
+        margin-top: -50px;
+        display: flex;
+
+        .avtar {
+            margin-right: 30px;
+
+            .avtar-img {
+                border: 2px solid #AEDF21;
+                border-radius: 10px;
+                width: 150px;
+                height: 150px;
+                object-fit: cover;
+            }
+        }
+
+        .helmat-row {
+            display: flex;
+            align-items: center;
+        }
+
+        .shots {
+            padding-left: 10px;
+
+            p {
+                font-weight: 400;
+                color: #AEDF21;
+                font-size: 11px;
+                line-height: 10px;
+            }
+
+            .bullets {
+                display: flex;
+                margin-top: 8px;
+
+                span {
+                    border: 1px solid #323334;
+                    border-radius: 3px;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 1px;
+                    background: none;
+
+                    &:nth-child(1) {
+                        background: #1D9E26;
+                    }
+
+                    &:nth-child(2) {
+                        background: #61D62D;
+                    }
+
+                    &:nth-child(3) {
+                        background: #87DB28;
+                    }
+
+                    &:nth-child(4) {
+                        background: #AEDF21;
+                    }
+                }
+            }
+        }
+
+        .helmat {
+            background: #AEDF21;
+            padding: 10px 8px;
+            margin-left: 12px;
+            text-align: center;
+
+            p {
+                font-weight: 600;
+                font-size: 10px;
+                line-height: 10px;
+                color: #18191A;
+            }
+        }
+    }
+
+    .userInfo {
+        flex: auto;
+        max-width: 612px;
+
+        .name {
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: 0.374px;
+            margin-bottom: 5px;
+        }
+
+        .userName {
+            color: #8E8E93;
+            letter-spacing: 0.374px;
+            font-weight: 300;
+            font-size: 16px;
+        }
+
+        .followers {
+            display: flex;
+            margin-top: 20px;
+
+            .clm {
+                border-right: 0.5px solid rgba(245, 245, 245, 0.26);
+                padding-right: 30px;
+                margin-right: 30px;
+                text-align: center;
+
+                &:last-child {
+                    border-right: 0;
+                }
+
+                .number {
+                    font-weight: 600;
+                    font-size: 20px;
+                    margin-bottom: 0px;
+                }
+
+                p {
+                    font-weight: 300;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .default-btn {
+        margin-left: auto;
+        margin-bottom: auto;
+        max-width: 300px;
+        display: inline-block;
+        flex: 0 0 300px;
+        border-radius: 10px;
+    }
+}
+
+.garage-section {
+    margin: 60px 0px;
+
+    h2 {
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        display: flex;
+        align-items: center;
+
+
+        span {
+            background: #387AFF;
+            border-radius: 50%;
+            margin-left: 5px;
+            width: 20px;
+            height: 20px;
+            font-size: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .garage-row {
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+        gap: 30px;
+        margin-top: 15px;
+
+        .garage-block {
+            position: relative;
+            border-radius: 15px;
+            overflow: hidden;
+
+            .stars {
+                margin-bottom: 15px;
+
+                i {
+                    filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.25));
+                    font-size: 22px;
+                }
+            }
+
+            .model {
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 12px;
+            }
+
+            .name {
+                display: flex;
+                font-weight: 400;
+                font-size: 20px;
+                align-items: flex-start;
+                line-height: 25px;
+                margin-top: 10px;
+
+                span {
+                    background: #387AFF;
+                    border-radius: 40px;
+                    color: #fff;
+                    font-size: 10px;
+                    line-height: 10px;
+                    padding: 5px 10px;
+                    margin-left: 10px;
+                }
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                background: linear-gradient(18.24deg, rgba(4, 5, 6, 0.8) 22.97%, rgba(4, 5, 6, 0) 71.94%);
+                width: 100%;
+                height: 50%;
+            }
+
+            img {
+                width: 100%;
+                height: 320px;
+                object-fit: cover;
+                border-radius: 15px;
+                transition: all ease 0.4s;
+            }
+
+            .info {
+                position: absolute;
+                z-index: 2;
+                bottom: 0;
+                padding: 30px;
+            }
+
+            &:hover {
+                img {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
+
+.crews-section {
+    margin: 60px 0px;
+
+    h2 {
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+
+    .crews-row {
+        grid-template-columns: 1fr 1fr 1fr;
+        display: grid;
+        gap: 30px;
+        margin-top: 15px;
+    }
+
+    .crews-block {
+        position: relative;
+        border-radius: 15px;
+        overflow: hidden;
+
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            background: linear-gradient(18.24deg, rgba(4, 5, 6, 0.8) 22.97%, rgba(4, 5, 6, 0) 71.94%);
+            width: 100%;
+            height: 50%;
+        }
+
+        .main-img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 15px;
+            transition: all ease 0.4s;
+        }
+
+        .info {
+            position: absolute;
+            z-index: 2;
+            bottom: 0;
+            padding: 30px;
+
+            .name {
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 25px;
+                display: flex;
+                align-items: self-start;
+
+                img {
+                    margin-left: 10px;
+                }
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 14px;
+                margin-top: 10px;
+            }
+        }
+
+        &:hover {
+            .main-img {
+                transform: scale(1.1);
+            }
+        }
+    }
+}

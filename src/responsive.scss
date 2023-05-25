@@ -2,43 +2,102 @@
     .cta-section .info {
         padding: 60px 60px 60px 60px;
     }
-} 
+}
 
 @media (max-width: 1279px) {}
-@media (max-width: 991px) {}
+
+@media (max-width: 991px) {
+    .user-profile-section .user-data{
+        text-align: center;
+        display: block;
+    }
+    .user-profile-section .userInfo .followers{
+        flex-direction: column;
+    }
+    .user-profile-section .userInfo .followers .clm{
+        border-bottom: 0.5px solid rgba(245, 245, 245, 0.26);
+        border-right: none;
+        padding: 15px 0px;
+        margin-right: 0;
+    }
+    .garage-section .garage-row,
+    .crews-section .crews-row{
+        grid-template-columns: 1fr;
+    }
+}
+
 @media (max-width: 767px) {
     header .container {
         flex-direction: column;
-        .rightbar{
+
+        .rightbar {
             margin-top: 15px;
         }
     }
-    .exploreParts .listing{
+
+    .exploreParts .listing {
         grid-template-columns: 1fr;
     }
-    .home-banner form .selectOption{
+
+    .home-banner form .selectOption {
         display: none;
     }
-    .home-banner form button{
+
+    .home-banner form button {
         border-left: 0;
         margin-left: 0;
     }
+
     .cta-section .info {
         padding: 30px;
     }
+
     .exploreParts .search-filter {
         flex-direction: column;
     }
+
     .crews-builds {
         grid-template-columns: 1fr;
     }
+
     footer .copyright .container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     footer h4 {
         margin-top: 20px;
     }
+
+    .extra-info {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .banner-img {
+        margin-top: 30px;
+    }
+
+    .banner-img .short-info {
+        padding: 15px;
+    }
+
+    .banner-img .short-info .clm {
+        padding: 0px 15px;
+    }
+
+    .filters {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .avg-rating {
+        margin-top: 30px;
+        padding: 30px;
+    }
+
+    .car-banner {
+        padding-top: 30px;
+    }
+
 }

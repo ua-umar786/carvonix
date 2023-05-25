@@ -58,9 +58,35 @@ h2 {
   padding: 10px 30px;
   text-decoration: none;
   border: #387AFF solid 1px;
+}
 
-  &:hover {
-    background-color: #000;
-    color: #fff;
-  }
+.default-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn {
+  background: #323334;
+  border-radius: 8px;
+  padding: 10px 40px;
+  color: #F5F5F5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  display: inline-block;
+}
+
+.btn:hover{
+  background: #387AFF;
+  color: #fff;
+}
+
+.btn.btn-blue{
+  background: #387AFF;
+  color: #fff;
+}
+
+.btn.btn-blue:hover{
+  background: #000;
+  color: #fff;
 }
