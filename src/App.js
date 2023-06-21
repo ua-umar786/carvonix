@@ -5,17 +5,19 @@ import HomeBanner from './FrontPage/HomeBanner';
 import CarDetail from './CarProfile/CarDetail';
 import UserProfile from './UserProfile/UserProfile';
 import ComponentPages from './ComponentPage/Borla';
+import Login from './Login';
 import './responsive.scss';
 
 function App() {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       {/* <HomeBanner /> */}
       {/* <CarDetail /> */}
       {/* <UserProfile /> */}
-      <ComponentPages />
-      <Footer />
+      {/* <ComponentPages /> */}
+      <Login />
+      {/* <Footer /> */}
     </div>
   );
 }
