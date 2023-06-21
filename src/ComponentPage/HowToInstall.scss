@@ -1,0 +1,250 @@
+.how-to-install-header {
+    .sm-title {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .installation-info {
+        .tags {
+            gap: 10px;
+        }
+
+        .install-info {
+            border: 1px solid #323334;
+            border-radius: 10px;
+            display: grid;
+            text-align: center;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding: 15px;
+
+            &>div {
+                border-right: 1px solid #F5F5F5;
+                ;
+            }
+
+            &>div:last-child {
+                border: none;
+            }
+
+            h6 {
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 25px;
+                margin: 0;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+.video-section {
+    .vid-img {
+        width: 100%;
+    }
+
+    .steps {
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 35px;
+        padding: 20px 0px;
+    }
+}
+
+.tools-wrapper {
+    border: 1px solid #323334;
+    border-radius: 10px;
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+
+    h3 {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        display: flex;
+        margin-bottom: 15px;
+        align-items: center;
+
+        svg {
+            margin-right: 8px;
+        }
+    }
+
+    ul {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+
+        li {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            border: 1px solid #323334;
+            border-radius: 30px;
+            padding: 8px 20px;
+        }
+    }
+}
+
+.step-p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #F5F5F5;
+}
+
+.next-step-btn {
+    display: flex;
+    background: #387AFF;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    color: #F5F5F5;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    width: 190px;
+    height: 50px;
+    margin: 30px 0px;
+    cursor: pointer;
+
+    i {
+        padding-left: 15px;
+    }
+
+    &:hover {
+        background: #323334;
+
+    }
+}
+
+.comments-wrapper {
+    border-top: 1px solid #212225;
+    padding-top: 20px;
+    margin-top: 20px;
+
+    .total-coments {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+
+        svg {
+            margin-right: 10px;
+        }
+
+        color: #8E8E93;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .comment-box {
+        border: 1px solid #323334;
+        position: relative;
+        height: 80px;
+        margin-bottom: 30px;
+
+        button {
+            color: #387AFF;
+            border: #387AFF solid 1px;
+            display: inline-block;
+            position: absolute;
+            right: 15px;
+            top: 15px;
+            padding: 8px 30px;
+            border-radius: 40px;
+            background: none;
+            outline: none;
+        }
+
+        textarea {
+            background: none;
+            height: 80px;
+            padding: 15px;
+            width: calc(100% - 160px);
+            border: none;
+            resize: none;
+            outline: none !important;
+            color: #fff;
+        }
+    }
+}
+
+.comment-text {
+    background: #18191A;
+    padding: 30px;
+    margin-bottom: 30px;
+
+    .user-text {
+        padding-left: 77px;
+    }
+
+    .actions-btns {
+        margin: 15px 0px;
+    }
+
+    .avtar-in {
+        display: flex;
+        margin-bottom: 15px;
+        align-items: center;
+
+        img {
+            width: 60px;
+            height: 60px;
+            border-radius: 32px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 15px;
+            border: 1px solid #000000;
+        }
+
+        .name {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 18px;
+        }
+
+        .d-flex {
+            color: #8E8E93;
+        }
+    }
+
+    .view-reply {
+        color: #8E8E93;
+        font-weight: 400;
+        font-size: 15px;
+        cursor: pointer;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    .reply {
+        border-left: 1px solid #323334;
+        padding-left: 10px;
+
+        p {
+            padding-left: 77px;
+        }
+    }
+}
+
+.show-more-comments {
+    color: #387AFF;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    &:hover{
+        color: #fff;
+    }
+}

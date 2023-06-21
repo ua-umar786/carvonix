@@ -2,6 +2,12 @@
     .cta-section .info {
         padding: 60px 60px 60px 60px;
     }
+    .gallery-section .gallery-list .how-block .gallery-img{
+        height: 240px;
+    }
+    .how-to-section .how-img{
+        height: 260px;
+    }
 }
 
 @media (max-width: 1279px) {}
@@ -24,6 +30,37 @@
     .crews-section .crews-row{
         grid-template-columns: 1fr;
     }
+    .page-container{
+        grid-template-columns: 1fr;
+        gap: 0;
+        row-gap: 30px;
+    }
+    .how-to-section{
+        margin: 0px;
+        padding: 15px;
+    }
+    .page-container > div:first-child{
+        border: none;
+    }
+    .page-container > div:nth-child(2){
+        border: none;
+        padding: 0px 15px;
+    }
+    .page-container > div:nth-child(3){
+        padding: 0px 15px;
+    }
+    .post-title{
+        text-align: center;
+        flex-direction: column;
+    }
+    .post-title .avtar-info{
+        margin-top: 10px;
+    }
+    .user-rating-list,
+    .how-to-section .block-list,
+    .gallery-section .gallery-list{
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 767px) {
@@ -33,6 +70,10 @@
         .rightbar {
             margin-top: 15px;
         }
+    }
+
+    .general-post-header .follow-btn{
+        margin: 20px auto 0 auto;
     }
 
     .exploreParts .listing {

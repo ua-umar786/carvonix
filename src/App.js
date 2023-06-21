@@ -4,6 +4,7 @@ import Footer from './FrontPage/Footer';
 import HomeBanner from './FrontPage/HomeBanner';
 import CarDetail from './CarProfile/CarDetail';
 import UserProfile from './UserProfile/UserProfile';
+import ComponentPages from './ComponentPage/Borla';
 import './responsive.scss';
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
       <Header />
       {/* <HomeBanner /> */}
       {/* <CarDetail /> */}
-      <UserProfile />
+      {/* <UserProfile /> */}
+      <ComponentPages />
       <Footer />
     </div>
   );

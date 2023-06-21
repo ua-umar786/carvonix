@@ -1,0 +1,140 @@
+.user-detail-wrapper {
+    background: #18191A;
+    padding: 30px;
+    margin-top: 30px;
+
+    .avtar-in {
+        display: flex;
+        margin-bottom: 15px;
+        align-items: center;
+
+        img {
+            width: 60px;
+            height: 60px;
+            border-radius: 32px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 15px;
+            border: 1px solid #000000;
+        }
+
+        .name {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 18px;
+        }
+
+        .d-flex {
+            color: #8E8E93;
+        }
+    }
+
+    .follow-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+
+
+
+        &>div {
+            border-right: 1px solid rgba(245, 245, 245, 0.26);
+            ;
+        }
+
+        &>div:last-child {
+            border-right: none;
+        }
+
+        h6 {
+            font-weight: 600;
+            font-size: 18px;
+            margin: 0px 0px 8px 0px;
+        }
+
+        p {
+            font-weight: 300;
+            font-size: 14px;
+        }
+    }
+}
+
+.user-personal-info {
+    line-height: 26px;
+
+    span {
+        color: #387AFF;
+        cursor: pointer;
+    }
+}
+
+.follow-btn {
+    width: 100%;
+    text-align: center;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 0px;
+    line-height: 22px;
+    cursor: pointer;
+    margin-top: 20px;
+
+    &:hover {
+        background: #387AFF;
+    }
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 30px 0px;
+}
+
+.for-you-list {
+    .foryou-user {
+        border-bottom: 1px solid #323334;
+        padding: 15px 0px;
+        &:last-child{
+            border-bottom: 0;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 22px;
+        }
+
+        .for-avtar {
+            display: flex;
+            margin-bottom: 15px;
+            align-items: center;
+
+            img {
+                width: 36px;
+                height: 36px;
+                border-radius: 32px;
+                border-radius: 50%;
+                object-fit: cover;
+                margin-right: 15px;
+                border: 1px solid #000000;
+            }
+
+            .name {
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 18px;
+            }
+
+            .d-flex {
+                color: #8E8E93;
+                font-weight: 300;
+                font-size: 12px;
+            }
+        }
+    }
+}

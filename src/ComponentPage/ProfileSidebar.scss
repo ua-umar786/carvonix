@@ -1,0 +1,20 @@
+.profile-links {
+    padding: 40px 30px;
+    li a {
+        display: flex;
+        align-items: center;
+        padding: 10px 0px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        color: #fff;
+        &:hover{
+            color: #387AFF;
+        }
+
+        img {
+            margin-right: 10px;
+            width: 25px;
+        }
+    }
+}

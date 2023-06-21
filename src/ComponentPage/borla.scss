@@ -1,0 +1,8 @@
+.page-container{
+    display: grid;
+    grid-template-columns: 20% 50% calc(30% - 90px);
+    gap: 30px;
+    &>div:first-child{
+        border-right: 1px solid #323334;
+    }
+}

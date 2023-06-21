@@ -1,0 +1,49 @@
+.general-post-header {
+    .avtar-in {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 60px;
+            height: 60px;
+            border-radius: 32px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 15px;
+            border: 1px solid #898A8D;
+        }
+
+        .name {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 18px;
+        }
+
+        .d-flex {
+            color: #8E8E93;
+        }
+    }
+
+    .follow-btn {
+        background: #387AFF;
+        border-radius: 10px;
+        padding: 10px 60px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        margin-left: auto;
+        max-width: fit-content;
+        border: none;
+        outline: none;
+        transition: all ease 0.4s;
+
+        &:hover {
+            background: #898A8D;
+            color: #fff;
+        }
+    }
+}
+
+.post-img{
+    width: 100%;
+}
