@@ -1,5 +1,6 @@
 .Trendingparts {
     padding-bottom: 60px;
+
     h3 {
         font-weight: 400;
         font-size: 24px;
@@ -9,6 +10,13 @@
 
     .part-block {
         margin-bottom: 20px;
+
+        a {
+            color: #fff;
+            &:hover{
+                color: #387AFF;
+            }
+        }
 
         .main-img {
             width: 100%;

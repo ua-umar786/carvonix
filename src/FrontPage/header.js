@@ -8,7 +8,7 @@ export default class header extends Component {
       <div>
       <header>
         <div className='container'>
-        <a href='/'><img src={logo} alt='Carvonix Logo' /></a>
+        <a href='/home'><img src={logo} alt='Carvonix Logo' /></a>
           <div className='rightbar'>
             <a href='/'>Log In</a>
             <a href='/'>Download App</a>

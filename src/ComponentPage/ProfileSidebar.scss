@@ -1,5 +1,9 @@
 .profile-links {
-    padding: 40px 30px;
+    padding: 30px 15px;
+    position: sticky;
+    top: 0;
+    left: 0;
+
     li a {
         display: flex;
         align-items: center;
@@ -8,7 +12,8 @@
         font-size: 16px;
         line-height: 25px;
         color: #fff;
-        &:hover{
+
+        &:hover {
             color: #387AFF;
         }
 

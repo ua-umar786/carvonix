@@ -4,8 +4,8 @@ import './borla.scss';
 import ProfileSideBar from './ProfileSideBar';
 import PartsSlider from './PartsSlider';
 import UserProfile from './UserProfile';
-import HowToInstall from './HowToInstall';
-import GeneralPost from './GeneralPost';
+import Header from '../FrontPage/header';
+import Footer from '../FrontPage/Footer';
 
 export default class Borla extends Component {
   static propTypes = {
@@ -15,17 +15,17 @@ export default class Borla extends Component {
   render() {
     return (
       <div>
+        <Header />
         <div className='page-container'>
           <ProfileSideBar />
           <div>
-            {/* <PartsSlider /> */}
-            {/* <HowToInstall /> */}
-            <GeneralPost />
+            <PartsSlider />
           </div>
           <div>
-          <UserProfile />
+            <UserProfile />
           </div>
         </div>
+        <Footer />
       </div>
     )
   }

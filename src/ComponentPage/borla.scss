@@ -1,7 +1,9 @@
 .page-container{
     display: grid;
-    grid-template-columns: 20% 50% calc(30% - 90px);
+    grid-template-columns: 20% 50% calc(30% - 70px);
     gap: 30px;
+    max-width: 1688px;
+    margin: 0 auto;
     &>div:first-child{
         border-right: 1px solid #323334;
     }

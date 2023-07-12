@@ -1,8 +1,27 @@
 .filters {
     display: grid;
     gap: 15px;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin: 20px 0px;
+
+    .default-select {
+        border: 1px solid #323334;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        padding-left: 34px;
+    }
+
+    .select-wrapper {
+        position: relative;
+
+        svg {
+            position: absolute;
+            left: 8px;
+            top: 8px;
+            z-index: 3;
+        }
+    }
 }
 
 .part-block {
@@ -18,9 +37,6 @@
 
     .info {
         padding: 20px 0px;
-        margin-bottom: 20px;
-        border-bottom: 1px solid #444546;
-
         .name {
             font-weight: 500;
             font-size: 18px;
@@ -59,5 +75,5 @@
             line-height: 10px;
             letter-spacing: -0.078px;
         }
-    } 
+    }
 }

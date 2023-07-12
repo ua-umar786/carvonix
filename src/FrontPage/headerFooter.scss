@@ -6,6 +6,7 @@ header {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        max-width: 1688px;
     }
 
     .rightbar {
@@ -90,4 +91,10 @@ footer {
             justify-content: space-between;
         }
     }
+}
+
+.sticky-clm{
+    position: sticky;
+    right: 0;
+    top: 0;
 }

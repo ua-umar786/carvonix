@@ -10,7 +10,7 @@ export default class UserProfile extends Component {
 
     render() {
         return (
-            <div>
+            <div className='sticky-clm'>
                 <div className='user-detail-wrapper'>
                     <div className='avtar-in'>
                         <img src={SliderImg} alt="" className='main-img' />

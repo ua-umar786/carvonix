@@ -22,7 +22,7 @@ export default class ProfileSideBar extends Component {
             <li><a href='#'> <img src={CarIcon} alt="" /> Crews</a></li>
             <li><a href='#'> <img src={BellIcon} alt="" /> Notifications</a></li>
             <li><a href='#'> <img src={SettingsIcon} alt="" /> Settings</a></li>
-            <li><a href='#'> <img src={Avtar} alt="" /> Profile</a></li>
+            <li><a href='/user-profile'> <img src={Avtar} alt="" /> Profile</a></li>
         </ul>
       </div>
     )

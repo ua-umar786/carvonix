@@ -8,6 +8,12 @@
     .how-to-section .how-img{
         height: 260px;
     }
+    .extra-info{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .user-profile-section .default-btn{
+        max-width: 150px;
+    }
 }
 
 @media (max-width: 1279px) {}

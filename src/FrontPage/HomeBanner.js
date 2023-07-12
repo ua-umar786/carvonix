@@ -3,12 +3,15 @@ import './banner.scss';
 import CallToAction from './CallToAction';
 import ExploreParts from './ExploreParts';
 import TrendingParts from './TrendingParts';
+import Header from './header';
+import Footer from './Footer';
 import CrewsBuilds from './CrewsBuilds';
 
 export default class HomeBanner extends Component {
     render() {
         return (
             <div>
+                <Header />
                 <div className='home-banner'>
                     <div className='container'>
                         <h1>Discover Your Community, with Carvonix</h1>
@@ -35,6 +38,7 @@ export default class HomeBanner extends Component {
                 <ExploreParts />
                 <TrendingParts />
                 <CrewsBuilds />
+                <Footer />
             </div>
         )
     }

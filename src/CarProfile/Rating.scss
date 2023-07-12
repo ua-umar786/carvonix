@@ -1,7 +1,6 @@
 .rating-section {
     background: #212225;
     padding: 60px 0px;
-    margin-top: 15px;
 
     h4 {
         font-weight: 300;
@@ -67,10 +66,15 @@
 
 .stars {
     display: flex;
+    align-items: center;
 
     i {
         color: #387AFF;
         padding-right: 3px;
+    }
+    span{
+        color: #8E8E93;
+        font-size: 15px;
     }
 }
 
