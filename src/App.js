@@ -15,13 +15,6 @@ function App() {
   return (
     <Main>
       <div>
-        {/* <Header /> */}
-        {/* <HomeBanner /> */}
-        {/* <CarDetail /> */}
-        {/* <UserProfile /> */}
-        {/* <ComponentPages /> */}
-        {/* <Login /> */}
-        {/* <Footer /> */}
 
         <Routes>
           <Route exact path='/' element={<Login />}></Route>
